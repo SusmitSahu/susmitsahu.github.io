@@ -1,0 +1,15 @@
+- title: Email
+  url: mailto:sahususmit@gmail.com
+  icon: fas fa-envelope
+
+- title: LinkedIn
+  url: https://www.linkedin.com/in/susmit-kumar-sahu
+  icon: fab fa-linkedin
+
+- title: Google Scholar
+  url: https://scholar.google.com
+  icon: ai ai-google-scholar
+
+- title: GitHub
+  url: https://github.com/susmitkumarsahu
+  icon: fab fa-github

@@ -1,0 +1,149 @@
+{
+  "basics": {
+    "name": "Susmit Kumar Sahu",
+    "label": "Applied AI/ML Engineer | GenAI & LLM Systems | Scientific ML & Digital Twin",
+    "email": "sahususmit@gmail.com",
+    "phone": "+91-7397227492",
+    "location": {
+      "city": "Pune",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "susmit-kumar-sahu",
+        "url": "https://www.linkedin.com/in/susmit-kumar-sahu"
+      },
+      {
+        "network": "Google Scholar",
+        "url": "https://scholar.google.com"
+      }
+    ],
+    "summary": "Applied AI Engineer with 3.5+ years experience building GenAI-driven solutions, agentic workflows, and scientific ML systems for complex industrial problems. Skilled in LLMs, RAG pipelines, and multi-agent systems for automation, decision intelligence, and cloud-based AI deployment, with a strong foundation in physics-based modeling and simulation."
+  },
+  "education": [
+    {
+      "institution": "IIITDM Kancheepuram",
+      "location": "Chennai, India",
+      "area": "Mechanical Engineering — Product Design (B.Tech + M.Tech Dual Degree)",
+      "studyType": "B.Tech + M.Tech",
+      "startDate": "2017",
+      "endDate": "2022",
+      "score": "8.55 CGPA"
+    }
+  ],
+  "work": [
+    {
+      "name": "TCS Research",
+      "position": "Researcher",
+      "location": "Pune, India",
+      "startDate": "2022-09",
+      "endDate": "Present",
+      "highlights": [
+        "Designed and developed AI-assisted digital twin systems integrating physics-based models and ML for predictive analytics and lifecycle optimization.",
+        "Built LLM-powered agentic workflows for automated parameter estimation and calibration, reducing manual effort and improving efficiency.",
+        "Developed RAG-based knowledge systems integrating experimental and literature data for context-aware decision-making.",
+        "Implemented scalable scientific ML models (PINNs, DeepONet, FNO) for multi-physics simulations, improving prediction accuracy by 20–30%.",
+        "Translated cell-level simulations into system-level insights for performance optimization and intelligent BMS integration.",
+        "Contributed to research publications and patent filings, bridging innovation with industrial applications."
+      ]
+    },
+    {
+      "name": "Rocket ML",
+      "position": "Scientific Computing Intern",
+      "location": "Oregon, USA (Remote)",
+      "startDate": "2021-05",
+      "endDate": "2021-10",
+      "highlights": [
+        "Executed large-scale CFD simulations using OpenFOAM on HPC systems.",
+        "Developed Python-based automation pipelines for simulation setup and post-processing.",
+        "Improved simulation efficiency using parallel computing techniques."
+      ]
+    },
+    {
+      "name": "IIT Ropar",
+      "position": "Project Assistant",
+      "location": "Rupnagar, Punjab",
+      "startDate": "2021-09",
+      "endDate": "2022-06",
+      "highlights": [
+        "Performed multiphase CFD simulations to optimize industrial flow systems.",
+        "Designed and evaluated geometry improvements to reduce vortex formation.",
+        "Delivered actionable insights for improved system stability and performance."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Multiscale Electro-Mechanical Modeling of Hard-Carbon Anodes in Sodium-Ion Batteries",
+      "publisher": "ACS Applied Energy Materials",
+      "releaseDate": "2026-01",
+      "authors": "Sahu, S.K., et al."
+    },
+    {
+      "name": "Method and System for Composite Electrode Design for Enhanced Battery Performance",
+      "publisher": "Patent Filed",
+      "releaseDate": "2025-05-20"
+    },
+    {
+      "name": "Commercial Hexapod Hydroponic System for Urban Farming",
+      "publisher": "Patent Filed",
+      "releaseDate": "2023-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI & GenAI",
+      "keywords": ["GPT", "LLM (Ollama, Claude SDK, Mistral)", "Model Fine-tuning (LoRA, QLoRA)", "Multi-agent Systems", "RAG Pipeline", "LlamaIndex", "Hugging Face", "LangChain", "Agentic AI", "AWS Bedrock", "VectorDB (ChromaDB, Weaviate)", "PageIndex"]
+    },
+    {
+      "name": "ML & Data Science",
+      "keywords": ["Scikit-learn", "Pandas", "Keras", "TensorFlow", "PyTorch", "Feature Engineering", "Neural Networks (ANN, RNN, PINNs, PI-DeepONet, PI-FNO)", "NN Optimization"]
+    },
+    {
+      "name": "Cloud & MLOps",
+      "keywords": ["AWS (Bedrock, SageMaker)", "Azure OpenAI", "Google ADK", "GCP", "Docker", "Git", "CI/CD Pipelines", "GitLab"]
+    },
+    {
+      "name": "Scientific Computing",
+      "keywords": ["FEniCSx", "OpenFOAM", "ANSYS", "MATLAB", "Finite Element Methods", "PDE-based Modeling", "OpenMPI"]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C", "Bash", "Linux", "MATLAB"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "IP Creation Award & Appreciation Certificate",
+      "date": "2025-11",
+      "awarder": "TCS Research",
+      "summary": "Received for filing patents on composite electrode design and battery technology."
+    },
+    {
+      "title": "Service & Commitment Award",
+      "date": "2025-09",
+      "awarder": "TCS Research",
+      "summary": "Received for dedicated service of 3 years."
+    },
+    {
+      "title": "Special Initiative Award",
+      "date": "2023-02",
+      "awarder": "TCS Research",
+      "summary": "Received for outstanding contribution to the organization."
+    }
+  ],
+  "certificates": [
+    { "name": "Building Apps and Agents with Azure", "issuer": "Microsoft", "date": "2026-03" },
+    { "name": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents", "issuer": "Udemy", "date": "2026-02" },
+    { "name": "GCP Associate Cloud Engineer", "issuer": "Google Cloud / Udemy", "date": "2026-02" },
+    { "name": "Ultimate AWS Certified AI Practitioner AIF-C01", "issuer": "Udemy", "date": "2025-09" },
+    { "name": "Machine Learning Specialization", "issuer": "Coursera (DeepLearning.AI)", "date": "2025-06" },
+    { "name": "Deep Learning and Neural Networks", "issuer": "Coursera", "date": "2025-05" },
+    { "name": "Writing in the Sciences", "issuer": "Coursera", "date": "2025-03" },
+    { "name": "The Finite Element Methods for Problems in Physics", "issuer": "Coursera", "date": "2024-03" },
+    { "name": "Introduction to Machine Learning (Elite Medal)", "issuer": "NPTEL", "date": "2021-05" },
+    { "name": "Business Analytics and Text Mining (Gold Medal)", "issuer": "NPTEL", "date": "2021-05" }
+  ]
+}

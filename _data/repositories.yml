@@ -1,0 +1,9 @@
+github_users:
+  - susmitkumarsahu  # TODO: update with your actual GitHub username
+
+github_repos:
+  # TODO: Add your GitHub repo names below (format: username/repo-name)
+  # Example:
+  # - susmitkumarsahu/agentic-battery-twin
+  # - susmitkumarsahu/pinns-battery-pack
+  # - susmitkumarsahu/multi-agent-rag

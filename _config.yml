@@ -1,0 +1,191 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Susmit Kumar Sahu
+first_name: Susmit Kumar
+middle_name:
+last_name: Sahu
+email: sahususmit@gmail.com
+description: >
+  Applied AI/ML Engineer | GenAI & LLM Systems | Scientific ML & Digital Twin.
+  Building intelligent systems at the intersection of physics-based modeling
+  and generative AI.
+
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+icon: ⚡  # emoji used as the favicon
+
+url: https://susmitkumarsahu.github.io  # TODO: update with your GitHub username
+baseurl:  # leave empty if your site is at the root
+
+last_updated: true
+impressum_path:  # set to path to include impressum link, e.g. /impressum/
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org (SEO)
+# -----------------------------------------------------------------------------
+og_image: /assets/img/prof_pic.jpg
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: susmitkumarsahu  # TODO: update with your GitHub username
+linkedin_username: susmit-kumar-sahu
+google_scholar_userid:  # TODO: add your Google Scholar ID
+orcid_id:  # TODO: add ORCID
+twitter_username:
+
+contact_note: >
+  The best way to reach me is via email. I'm also active on LinkedIn.
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics:  # GA Measurement ID (e.g., G-XXXXXXXX)
+cronitor_analytics:
+pirsch_analytics:
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name: Susmit's Research Blog
+blog_nav_title: blog
+blog_description: Thoughts on AI, Scientific ML, Battery Modeling & Digital Twins
+permalink: /blog/:year/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+# Comments
+disqus_shortname:  # leave blank to disable
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages"]
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+keep_files:
+  - CNAME
+  - .nojekyll
+
+# -----------------------------------------------------------------------------
+# Jekyll plugins
+# -----------------------------------------------------------------------------
+
+plugins:
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+# -----------------------------------------------------------------------------
+# Misc
+# -----------------------------------------------------------------------------
+
+# Theme
+theme: # not using a remote theme but the files directly
+
+# Use default Jekyll Minima theme font
+enable_google_fonts: true
+
+# Scholar / Publications
+scholar:
+  last_name: [Sahu]
+  first_name: [Susmit, Susmit Kumar]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      related_posts: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: true
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: true
