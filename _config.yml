@@ -126,6 +126,8 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - external-posts # Ensure this line is present
+
 
 # -----------------------------------------------------------------------------
 # Misc
