@@ -1,31 +1,30 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+# Core GitHub Pages environment
+# (This includes the correct versions of jekyll, jekyll-feed, jekyll-sitemap, and jemoji automatically)
 gem "github-pages", group: :jekyll_plugins
 
-
-gem "jekyll", "~> 4.3"
-gem "jekyll-archives"
+# Extra Jekyll Plugins
 gem "jekyll-email-protect"
-gem "jekyll-feed"
 gem "jekyll-get-json"
 gem "jekyll-imagemagick"
 gem "jekyll-jupyter-notebook"
 gem "jekyll-link-attributes"
 gem "jekyll-minifier"
-gem "jekyll-paginate-v2"
 gem "jekyll-scholar"
-gem "jekyll-sitemap"
 gem "jekyll-toc"
 gem "jekyll-twitter-plugin"
-gem "jemoji"
+
+# Runtime Environment Helpers
 gem "mini_racer"
-gem "nokogiri"
 gem "webrick"
+
+# Dependencies for your custom external-posts plugin
 gem "feedjira"
 gem "httparty"
 gem "nokogiri"
 
+# Plugins categorized inside the jekyll_plugins group block
 group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-paginate-v2"
