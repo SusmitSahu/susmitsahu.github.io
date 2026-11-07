@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
+
+
 gem "jekyll", "~> 4.3"
 gem "jekyll-archives"
 gem "jekyll-email-protect"
@@ -18,6 +22,9 @@ gem "jemoji"
 gem "mini_racer"
 gem "nokogiri"
 gem "webrick"
+gem "feedjira"
+gem "httparty"
+gem "nokogiri"
 
 group :jekyll_plugins do
   gem "jekyll-archives"
